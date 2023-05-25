@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:zero_degree_lab_s_calculator/core/app_export.dart';
 
 // ignore: must_be_immutable
-class CustomAppBar extends StatelessWidget with PreferredSizeWidget {
+class CustomAppBar extends StatelessWidget implements PreferredSizeWidget {
   CustomAppBar(
       {required this.height,
       this.leadingWidth,
